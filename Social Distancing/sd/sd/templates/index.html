@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Social detection</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+</head>
+<body style="background-color: rgb(203, 236, 231);">
+<div class="w3-content" style="max-width:1100px;margin-top:40px;margin-left:25%;margin-bottom:40px">
+    <h1 class="w3-panel" >Welcome to the Social Detection APP</h1>
+</div>
+<div class="w3-input w3-border w3-hover-border-black" style="width:100%;background-color: rgba(52, 173, 113, 0.637);">
+    <form class="w3-container"  target="_blank" enctype="multipart/form-data" method="POST" action="">
+        <div class="w3-section" class="w3-input w3-border w3-hover-border-black" style="width:100%;">
+            {% csrf_token %}
+            {{ form.as_p }}
+        </div>
+        <br>
+        
+        <div class="w3-button w3-block w3-black">
+            <input type="submit" class="w3-button w3-block w3-black"/>
+        </div>
+       
+        </form>
+</div>
+
+<div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">How use</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16" >
+      <h3>Step 1</h3>
+      <p>Write the input file name</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>Step 2</h3>
+      <p>Select the file.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Step 3</h3>
+      <p>Click the Submit button</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Step 4</h3>
+      <p>output is in your Taskbar</p>
+    </div>
+  </div>
+ <!-- Grid -->
+ <div class="w3-row-padding" id="about" >
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom" >
+      <div class="w3-card-4">
+        <div class="w3-container" style="background-color: rgba(52, 173, 113, 0.637);">
+          <h3>Devansh Maru</h3>
+          <p class="w3-opacity">CE 077</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container" style="background-color: rgba(52, 173, 113, 0.637);">
+          <h3>Gaurav K. Mori</h3>
+          <p class="w3-opacity">CE 086</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container" style="background-color: rgba(52, 173, 113, 0.637);">
+          <h3>Vedant Panchal</h3>
+          <p class="w3-opacity">CE 097</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br><br>
+<!--<video width='400' controls>
+<source src='{{ MEDIA_URL }}{{ videofile }}' type='video/mp4'>
+Your browser does not support the video tag.
+</video>-->
+<br><br>
+</p>
+
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpbh-mt'},{'server':'p3plmcpnl487010'},{'id':'8437534'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
